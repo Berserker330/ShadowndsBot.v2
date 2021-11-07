@@ -1,4 +1,4 @@
-# ShadowndsBot.v2
+* ShadowndsBot.v2
 
 <p align="center">
 <img src="./media/logo2.jpg" width="300" height="388"/>
@@ -37,7 +37,7 @@
 >pkg update && pkg upgrade
 >pkg install git
 >pkg install nodejs
->git clone https://github.com/BerSerKerCreuBot/ShadowndsBor.v2
+>git clone https://github.com/berserker09/ShadowndsBot.v2
 >cd ShadowndsBot.v2
 >bash install.sh
 ```
