@@ -41,4 +41,4 @@
 * <a href="https://github.com/Samu330/NyanBot"><img alt="GitHub" src="https://img.shields.io/badge/Samu330/NyanBot%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 ## Grupo de WhatsApp
 PSDT: Grupo de WhatsApp soporte del bot y ayuda 
-* <a href="link"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://chat.whatsapp.com/E5xoSThB6LQ5L6CY8XrODI"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
