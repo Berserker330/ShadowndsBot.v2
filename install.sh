@@ -1,5 +1,7 @@
 #!/usr/bin/bash
       
+echo -e '\033[0m\033[1;35m
+
 apt-get update
 apt-get upgrade
 apt-get install nodejs
@@ -13,17 +15,7 @@ wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-oc
 npm install
 npm i
 
-echo -e '\033[0m\033[1;35m
- ___                                    _     
-(  _`\                                 ( )    
-| (_) )   __   _ __   ___    __   _ __ | |/'}
-|  _'<' /'_'`\( '__)/',__) /'__`\( '__)| , <  
-| (_) )(  ___/| |   \__, \(  ___/| |   | |\`\ 
-(
-(____/'`\____)(_)   (____/`\____)(_)   (_) (_)
-                                               
-                                               
-
+echo -e '\e[1;32m
 
 echo "todos los paquetes se han instalado correctamente "
 
