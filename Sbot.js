@@ -1,46 +1,23 @@
-const { 
-    WAConnection,
-    MessageType,
-    Presence, 
-    MessageOptions,
-    Mimetype,
-    WALocationMessage,
-    WA_MESSAGE_STUB_TYPES,
-    ReconnectMode,
-    ProxyAgent,
-    GroupSettingChange,
-    ChatModification,
-    waChatKey,
-    WA_DEFAULT_EPHEMERAL,
-    mentionedJid,
-    prepareMessageFromContent, 
-    Browsers,
-    processTime
-    } = require("@adiwajshing/baileys")
-  const crypto = require("crypto-js");        
-  const CryptoJS = require("crypto-js");
-  const fs = require('fs');
-  const prefix = '.'
-  const moment = require("moment-timezone");
-  const yts = require('yt-search')
-  const LeoGg = require('google-it');
-  const LeoGgImg = require('g-i-s');
-  const fetch = require('node-fetch');
-  const _registered = JSON.parse(fs.readFileSync('./src/registered.json'))
-  const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
-  const antilink = JSON.parse(fs.readFileSync('./src/antilink.json'))
-  const ban = JSON.parse(fs.readFileSync('./src/banned.json'))
-  const conn = require("./lib/connect")
-  const wa = require("./lib/wa")
-  const { color } = require("./lib/color");
-  const {  getBuffer, h2k,  generateMessageID, getGroupAdmins,  getRandom, banner,  start,  info, success, close,} = require("./lib/functions");
-  const { getLevelingXp, getLevelingId, addLevelingXp, addLevelingLevel, addLevelingId, getLevelingLevel, getUserRank, addCooldown, leveltab } = require('./lib/leveling.js')
-  const { addBanned, unBanned, BannedExpired, cekBannedUser } = require('./lib/banned.js')
-  //const {convertSticker} = require("./lib/swm.js")
-  const {y2mateA, y2mateV} = require('./lib/y2mate.js')
-  const { isFiltered, addFilter } = require('./lib/Addfilter')
-  const config = JSON.parse(fs.readFileSync("./config.json"))
-  const owner = config.owner
-  const mods = config.mods
-  const fake = 'client'
-  var public = config.public
+const { WAConnection } = require("@adiwajshing/baileys")
+const chalk = require('chalk')
+const fs = require("fs")
+const exec = require('child_process')
+
+const leo = new WAConnection()
+exports.leo = leo
+
+exports.connect = async() => {
+    leo.version = [2, 2143, 3]
+    console.log(chalk.keyword("blue")('⌛ 𝐂𝐎𝐍𝐄𝐂𝐓𝐀𝐍𝐃𝐎 ...'))
+    let auth = './Chui.json'
+    leo.logger.level = 'warn'
+    leo.on("qr", () => {
+       console.log(chalk.keyword("red")('𝐄𝐒𝐂𝐀𝐍𝐄𝐄 𝐄𝐋 𝐂𝐎𝐃𝐈𝐆𝐎 𝐐𝐑 𝐏𝐀𝐑𝐀 𝐂𝐎𝐍𝐄𝐂𝐓𝐀𝐑𝐒𝐄'))
+    })
+    fs.existsSync(auth) && leo.loadAuthInfo(auth)
+    leo.on('connecting', () => {
+        console.log(chalk.whiteBright("⌛"), chalk.keyword("red")(" "), chalk.keyword("aqua")("𝐄𝐒𝐂𝐀𝐍𝐄𝐄 𝐄𝐋 𝐂𝐎𝐃𝐈𝐆𝐎 𝐐𝐑 "))
+    })
+    await leo.connect({ timeoutMs: 30 * 1000 })
+    return leo
+}
