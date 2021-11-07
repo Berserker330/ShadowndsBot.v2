@@ -1,5 +1,6 @@
 # ShadowndsBot.v2
 
+align="center">
 <img src="./media/logo2.jpg" width="140" height="140"/>
 </p>
 <p align="center">
