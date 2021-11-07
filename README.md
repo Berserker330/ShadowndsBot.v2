@@ -4,7 +4,7 @@
 <a href="#"><img title="bot" src="https://img.shields.io/badge/「 👻 © by Samy 👻 」-black?colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/BerSerKerCreuBot"><img title="Author" src="https://img.shields.io/badge/Author-BerSerKerCreuBot team-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/Berserker09"><img title="Author" src="https://img.shields.io/badge/Author-Beserker09 team-red.svg?style=for-the-badge&logo=github" /></a>
 <p align="center">
 <img src="https://www.crackingpro.com/uploads/team_VIP.gif" width="200" height="80"/>
 </p>
