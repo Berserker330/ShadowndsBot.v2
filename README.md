@@ -1,5 +1,9 @@
 # ShadowndsBot.v2
 
+
+align="center">
+<img src="./media/logo.jpg" width="140" height="140"/>
+</p>
 <p align="center">
 <a href="#"><img title="bot" src="https://img.shields.io/badge/「 👻 © by Samy 👻 」-black?colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
 </p>
