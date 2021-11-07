@@ -22,10 +22,9 @@ echo -e '\e[1;32m
    \ \ \L\ \/\  __/ \ \ \/ /\__, `\/\  __/ \ \ \/   \ \ \\`\  /\  __/ \ \ \/  \ \ \_\ \ \/__,/\ \ 
     \ \____/\ \____\ \ \_\ \/\____/\ \____\ \ \_\    \ \_\ \_\\ \____\ \ \_\   \ \____/      \ \_\
      \/___/  \/____/  \/_/  \/___/  \/____/  \/_/     \/_/\/_/ \/____/  \/_/    \/___/        \/_/
+
+todos los paquetes se han instalado correctamente
+
+usa npm start para iniciar el bot,
                                                                                                   
                                                                                                   
-
-echo "todos los paquetes se an instalado correctamente "
-
-echo "Hecho, usa npm start para iniciar senpai >w< "
-
