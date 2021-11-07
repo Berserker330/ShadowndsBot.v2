@@ -1,6 +1,15 @@
 #!/usr/bin/bash
       
 echo -e '\033[0m\033[1;35m
+  ____                                             __         
+ /\  _`\                                          /\ \        
+ \ \ \L\ \     __    _ __    ____     __    _ __  \ \ \/'\    
+  \ \  _ <'  /'__`\ /\`'__\ /',__\  /'__`\ /\`'__\ \ \ , <    
+   \ \ \L\ \/\  __/ \ \ \/ /\__, `\/\  __/ \ \ \/   \ \ \\`\  
+    \ \____/\ \____\ \ \_\ \/\____/\ \____\ \ \_\    \ \_\ \_\
+     \/___/  \/____/  \/_/  \/___/  \/____/  \/_/     \/_/\/_/
+                                                              
+\033[0m'                                                              
 
 apt-get update
 apt-get upgrade
@@ -14,7 +23,6 @@ apt-get install nmap
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install
 npm i
-\033[0m'
 npm i
 
 
