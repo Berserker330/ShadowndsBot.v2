@@ -11,13 +11,11 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/shanduy"><img title="Creador" src="https://img.shields.io/badge/Author-Shanduy-purple.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/shanduy"><img title="Creador" src="https://img.shields.io/badge/Author-Berserk-purple.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="#"><img title="bot" src="https://img.shields.io/badge/「 👻 © by Samy 👻 」-black?colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
 </p>
-<p align="center">
-  <a href="https://github.com/Berserker09"><img title="Author" src="https://img.shields.io/badge/Author-Berserker09 team-red.svg?style=for-the-badge&logo=github" /></a>
 <p align="center">
 <img src="https://www.crackingpro.com/uploads/team_VIP.gif" width="200" height="80"/>
 </p>
