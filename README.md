@@ -1,4 +1,4 @@
-# * ShadowndsBot.v2
+* ShadowndsBot.v2 *®by berserker09
 
 <p align="center">
 <img src="./media/logo2.jpg" width="300" height="388"/>
