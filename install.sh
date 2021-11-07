@@ -13,6 +13,18 @@ wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-oc
 npm install
 npm i
 
+echo -e '\e[1;32m
+
+  ____                                             __                           __        __      
+ /\  _`\                                          /\ \                        /'__`\    /'_ `\    
+ \ \ \L\ \     __    _ __    ____     __    _ __  \ \ \/'\       __    _ __  /\ \/\ \  /\ \L\ \   
+  \ \  _ <'  /'__`\ /\`'__\ /',__\  /'__`\ /\`'__\ \ \ , <     /'__`\ /\`'__\\ \ \ \ \ \ \___, \  
+   \ \ \L\ \/\  __/ \ \ \/ /\__, `\/\  __/ \ \ \/   \ \ \\`\  /\  __/ \ \ \/  \ \ \_\ \ \/__,/\ \ 
+    \ \____/\ \____\ \ \_\ \/\____/\ \____\ \ \_\    \ \_\ \_\\ \____\ \ \_\   \ \____/      \ \_\
+     \/___/  \/____/  \/_/  \/___/  \/____/  \/_/     \/_/\/_/ \/____/  \/_/    \/___/        \/_/
+                                                                                                  
+                                                                                                  
+
 echo "todos los paquetes se an instalado correctamente "
 
 echo "Hecho, usa npm start para iniciar senpai >w< "
